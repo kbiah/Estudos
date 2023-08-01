@@ -1,9 +1,10 @@
-﻿@model IEnumerable<lagrimas.Models.Instituicao>
+﻿
+@model IEnumerable<lagrimas.Models.Instituicao>
 
 @{
     Layout = null;
 }
-
+    
 <!DOCTYPE html>
 
 <html>
@@ -13,8 +14,10 @@
 </head>
 <body>
 <p>
-    <a asp-action="Create">Create New</a>
+        <a asp-action="Create">Criar nova instituição</a>
 </p>
+
+    
 <table class="table">
     <thead>
         <tr>
@@ -31,7 +34,7 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+        @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.InstituicaoID)
@@ -42,13 +45,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Endereco)
             </td>
-            <td>
-                        @Html.ActionLink("Edit", "Edit", new { id=item.InstituicaoID }) |
-                        @Html.ActionLink("Details", "Details", new { id=item.InstituicaoID }) |
-                        @Html.ActionLink("Delete", "Delete", new { id=item.InstituicaoID })
-            </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.InstituicaoID">Alterar</a> |
+                        <a asp-action="Details" asp-route-id="@item.InstituicaoID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.InstituicaoID">Delete</a>
+                    </td>
         </tr>
-}
+    }
     </tbody>
 </table>
 </body>

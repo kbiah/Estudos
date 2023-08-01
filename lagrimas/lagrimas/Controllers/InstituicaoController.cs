@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System;
+using System.Linq;
 
 namespace lagrimas.Controllers
 {
@@ -41,7 +42,59 @@ namespace lagrimas.Controllers
         };
         public IActionResult Index()
         {
-            return View(instituicoes);
+            //return View(instituicoes);
+            return View(instituicoes.OrderBy(i => i.Nome));
+        }
+
+
+        // abaixo CRUD (Create, Read, Update e Delete – Criação, Leitura, Atualização e Exclusão)
+
+
+        // CREATE
+        public ActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Instituicao instituicao)
+        {
+            instituicoes.Add(instituicao);
+            instituicao.InstituicaoID = instituicoes.Select(i => i.InstituicaoID).Max() + 1;
+            return RedirectToAction("Index");
+        }
+
+        // EDIT
+        public ActionResult Edit(long id)
+        {
+            return View(instituicoes.Where(i => i.InstituicaoID == id).FirstOrDefault());
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Instituicao instituicao)
+        {
+            instituicoes.Remove(instituicoes.Where(i => i.InstituicaoID == instituicao.InstituicaoID).FirstOrDefault());
+            instituicoes.Add(instituicao);
+            return RedirectToAction("Index");
+        }
+
+        // DETAILS - leitura
+        public ActionResult Details(long id)
+        {
+            return View(instituicoes.Where(i => i.InstituicaoID == id).First()); 
+        }
+
+        //DELETE 
+        public ActionResult Delete(long id)
+        {
+            return View(instituicoes.Where(i => i.InstituicaoID == id).First());
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(Instituicao instituicao)
+        {
+            instituicoes.Remove(instituicoes.Where(i => i.InstituicaoID == instituicao.InstituicaoID).FirstOrDefault()); //substitui First() para não retornar InvalidOperationException
+            return RedirectToAction("Index");
         }
     }
 }

@@ -119,3 +119,7 @@ D:\Estudos\lagrimas\lagrimas\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Wor
 D:\Estudos\lagrimas\lagrimas\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\Estudos\lagrimas\lagrimas\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\Index.cshtml.g.cs
+D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\Create.cshtml.g.cs
+D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\Edit.cshtml.g.cs
+D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\Delete.cshtml.g.cs
+D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\Details.cshtml.g.cs
