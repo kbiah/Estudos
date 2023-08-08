@@ -20,4 +20,10 @@
     <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\images\drops_599508.png" />
+    <None Include="wwwroot\images\franchise_9185648.png" />
+    <None Include="wwwroot\images\mortarboard_1940611.png" />
+  </ItemGroup>
+
 </Project>
