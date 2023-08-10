@@ -14,11 +14,12 @@ namespace lagrimas.Data
             public IESContext(DbContextOptions<IESContext> options) : base(options)
             {
             }
-            protected override void OnModelCreating(ModelBuilder modelBuilder)
-            {
-                base.OnModelCreating(modelBuilder);
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
             object value = modelBuilder.Entity<Departamento>().ToTable("Departamento");
-            }
+        }
 
         // ---> Só usar isso se nao for usar local db <---
         // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

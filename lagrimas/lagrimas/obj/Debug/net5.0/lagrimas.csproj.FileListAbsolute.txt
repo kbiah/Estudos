@@ -168,3 +168,5 @@ D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Shared\_LayoutIES.csht
 D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\Index.cshtml.g.cs
 D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\Create.cshtml.g.cs
+D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Departamento\Delete.cshtml.g.cs
+D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\_ComDepartamentos.cshtml.g.cs
