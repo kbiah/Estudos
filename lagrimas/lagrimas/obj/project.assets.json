@@ -2414,6 +2414,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Modelo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Modelo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modelo.dll": {}
+        }
       }
     }
   },
@@ -7747,6 +7757,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Modelo/1.0.0": {
+      "type": "project",
+      "path": "../modelo/Modelo.csproj",
+      "msbuildProject": "../modelo/Modelo.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7756,7 +7771,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
+      "Modelo >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7794,7 +7810,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Estudos\\lagrimas\\modelo\\Modelo.csproj": {
+              "projectPath": "D:\\Estudos\\lagrimas\\modelo\\Modelo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

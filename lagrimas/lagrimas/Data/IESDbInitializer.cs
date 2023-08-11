@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Linq;
 using lagrimas.Models;
+using lagrimas.Modelo.Cadastros;
 
 namespace lagrimas.Data
 {
