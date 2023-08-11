@@ -1,5 +1,6 @@
 ﻿using lagrimas.Models;
 using System.Collections.Generic;
+using lagrimas.Modelo.Cadastros;
 using System.Reflection.Emit;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;

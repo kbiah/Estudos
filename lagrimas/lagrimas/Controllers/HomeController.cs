@@ -1,4 +1,5 @@
-﻿using lagrimas.Models;
+﻿using lagrimas.Modelo.Cadastros;
+using lagrimas.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;

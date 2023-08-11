@@ -26,4 +26,8 @@
     <None Include="wwwroot\images\mortarboard_1940611.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\modelo\Modelo.csproj" />
+  </ItemGroup>
+
 </Project>

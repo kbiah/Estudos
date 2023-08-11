@@ -170,3 +170,7 @@ D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\Create.cshtml.g.cs
 D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Departamento\Delete.cshtml.g.cs
 D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\_ComDepartamentos.cshtml.g.cs
+D:\Estudos\lagrimas\lagrimas\bin\Debug\net5.0\Modelo.dll
+D:\Estudos\lagrimas\lagrimas\bin\Debug\net5.0\Modelo.pdb
+D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Instituicao\_PartialDetailsContentCard.cshtml.g.cs
+D:\Estudos\lagrimas\lagrimas\obj\Debug\net5.0\Razor\Views\Departamento\_PartialDetailsContentCard.cshtml.g.cs
