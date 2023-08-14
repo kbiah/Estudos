@@ -1,0 +1,12 @@
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\modelo.csproj.AssemblyReference.cache
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\modelo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\modelo.AssemblyInfoInputs.cache
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\modelo.AssemblyInfo.cs
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\modelo.csproj.CoreCompileInputs.cache
+D:\Estudos\lagrimas\modelo\bin\Debug\net5.0\modelo.deps.json
+D:\Estudos\lagrimas\modelo\bin\Debug\net5.0\modelo.dll
+D:\Estudos\lagrimas\modelo\bin\Debug\net5.0\modelo.pdb
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\modelo.dll
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\refint\modelo.dll
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\modelo.pdb
+D:\Estudos\lagrimas\modelo\obj\Debug\net5.0\ref\modelo.dll
