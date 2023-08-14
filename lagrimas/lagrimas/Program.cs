@@ -20,7 +20,7 @@ namespace Capitulo02
                 try
                 {
                     var context = services.GetRequiredService<IESContext>();
-                    IESDbInitializer.Initialize(context);
+                   // IESDbInitializer.Initialize(context);  -- n usa pq tem migrations
                 }
                 catch (Exception ex)
                 {
